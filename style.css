@@ -1,0 +1,55 @@
+/* General reset */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    text-align: center;
+    color: #444;
+}
+
+/* The Immersive Header */
+#header {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('your-best-ai-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#header h1 {
+    font-size: 3.5em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+/* The Helios Circular Button */
+.button-circled {
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.button-circled:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+/* Section Spacing */
+section {
+    padding: 100px 20px;
+}
+
+.full-width {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+}
