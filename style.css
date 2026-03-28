@@ -1,55 +1,76 @@
-/* General reset */
+/* Helios Style Guide */
 body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
-    text-align: center;
+    line-height: 1.75;
     color: #444;
+    text-align: center; /* Helios centers almost everything */
 }
 
-/* The Immersive Header */
+/* The Cinematic Banner (Screenshot 1) */
 #header {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('your-best-ai-image.jpg');
+    background: linear-gradient(rgba(45, 30, 50, 0.6), rgba(45, 30, 50, 0.6)), url('your-ai-hero.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     color: white;
 }
 
 #header h1 {
-    font-size: 3.5em;
-    letter-spacing: 5px;
-    text-transform: uppercase;
+    font-size: 4em;
+    letter-spacing: 0.1em;
+    margin-bottom: 0;
 }
 
-/* The Helios Circular Button */
+/* The Red "Start" Button from your Screenshot */
 .button-circled {
-    border: 2px solid white;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
+    background: #e89980; /* The salmon color in Helios */
     color: white;
-    margin-top: 20px;
-    transition: background 0.3s;
+    text-decoration: none;
+    padding: 2em;
+    border-radius: 50%;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 30px;
+    font-weight: bold;
 }
 
-.button-circled:hover {
-    background: rgba(255,255,255,0.2);
-}
-
-/* Section Spacing */
+/* Section Spacing (Screenshot 2 & 5) */
 section {
-    padding: 100px 20px;
+    padding: 6em 10%;
+    border-bottom: 1px solid #eee;
 }
 
-.full-width {
+h2 {
+    font-size: 2.5em;
+    letter-spacing: 0.05em;
+}
+
+/* Three-Column Grid (Screenshot 5) */
+.row {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.col {
+    flex: 1;
+}
+
+.col img {
     width: 100%;
-    max-height: 600px;
-    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Dark Footer (Screenshot 7) */
+footer {
+    background: #282828;
+    color: #999;
+    padding: 4em 10%;
 }
