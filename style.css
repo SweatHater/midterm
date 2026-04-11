@@ -18,7 +18,7 @@ body {
 
 /* Cinematic Banner */
 #header {
-    background: linear-gradient(rgba(45, 30, 50, 0.6), rgba(45, 30, 50, 0.6)), url('site1.jpg');
+    background: linear-gradient(rgba(45, 30, 50, 0.6), rgba(45, 30, 50, 0.6)), url('street.jpg');
     background-size: cover;
     background-position: center;
     min-height: 100vh;
